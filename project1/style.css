@@ -1,0 +1,61 @@
+
+
+
+.container{
+
+    width: 1024px;
+    min-height:300px;
+    margin-left: auto;
+    margin-right: auto;;
+}
+
+
+header{
+    background-color: #31602e;
+
+    height: 100px;
+}
+
+main{
+
+    background-color: #4da848;
+    min-height: 300px;
+
+}
+
+
+.big-card{
+    height: 300px;
+    
+}
+.card{
+    width: 1024px;
+    background-color: #99f694;
+
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1{
+    background-color: #f8c431;
+    width: 30%;
+    min-height: 300px;
+    
+}
+.card2{
+    min-height: 300px;
+
+    background-color: #daaf38;
+    width: 30%;
+
+
+
+    
+}
+.card3{
+    background-color: #e1c370;
+    width: 30%;
+    min-height: 300px;
+}
+
