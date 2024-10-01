@@ -1,6 +1,12 @@
 
 
-
+body{
+    background-image: url(https://st2.depositphotos.com/40002702/43583/v/450/depositphotos_435836618-stock-illustration-light-orange-vector-shining-triangular.jpg);
+    block-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 .container{
 
     width: 1024px;
@@ -11,15 +17,106 @@
 
 
 header{
-    background-color: #31602e;
+    /* background-color: #ff9819; */
 
     height: 100px;
+
+}
+.Nav{
+    display:flex;
+
+}
+.Nav ul {
+    display:flex;
+    /* color: white; */
+    /* background-color: lightyellow; */
+
+    
+}
+.Nav ul li {
+
+    list-style-type: none;
+    
+
+    margin-top:20px;
+    margin-left:100px ;
+    padding: 10;
+    text-align: center;
+    border-width:2px ;
+    border-color: #d8e7d7;
+    border: #e1e5e0;
+    
+}
+.Logo{
+    height: 100px;
+    backdrop-filter: calc();
+    
+    width: 100px;
+}
+
+.NavItem{
+    border:1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    color: cornsilk;
+}
+.Search {
+    margin-top: 30px;
+    margin-left: 140px;
+
+    height: 100px;
+}
+.Search input {
+ 
+
+    height: 30px;
+}
+.Search button {
+ 
+
+    height: 40px;
 }
 
 main{
 
-    background-color: #4da848;
+    /* background-color: #d8e7d7; */
     min-height: 300px;
+    display: flex;
+
+}
+
+.MainDiv1{
+    /* background-color: rgb(213, 203, 185); */
+    width: 500px;
+    height: 250px;
+
+}
+.MainDiv1 h1{
+   color: rgb(245, 227, 227);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+.MainDiv1 p{
+   color: rgb(245, 227, 227);
+   font-family:'Times New Roman', Times, serif;
+   line-height: 20px;
+   text-size-adjust: 90px;
+}
+.MainDiv2{
+    margin-left:30px ;
+    background-color: wheat;
+    width: 500px;
+    height: 250px;
+    background-image: url(https://t3.ftcdn.net/jpg/05/69/30/42/360_F_569304262_RGVohUth9wyR5Msa3CoR4XFvMYE8VG1k.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 
 }
 
@@ -28,9 +125,25 @@ main{
     height: 300px;
     
 }
+
+
+.MyBottun{
+    background-color: white;
+    color: orange;
+    height: 30px;
+    width: 100px;
+}
+
+.MyBottun:hover{  
+    background-color: orange;
+    color: white;
+    height: 30px;
+    width: 100px;
+    transition: 1s;
+}
 .card{
     width: 1024px;
-    background-color: #99f694;
+    /* background-color: #99f694; */
 
     min-height: 300px;
     display: flex;
@@ -38,24 +151,28 @@ main{
 }
 
 .card1{
-    background-color: #f8c431;
+    /* background-color: #f8c431; */
     width: 30%;
     min-height: 300px;
-    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoF6L9PcJe66TWEKDYDR_qWZ4ErtWPqrdfWw&s);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .card2{
-    min-height: 300px;
-
-    background-color: #daaf38;
     width: 30%;
-
+    min-height: 300px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoF6L9PcJe66TWEKDYDR_qWZ4ErtWPqrdfWw&s);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
     
 }
 .card3{
-    background-color: #e1c370;
     width: 30%;
     min-height: 300px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoF6L9PcJe66TWEKDYDR_qWZ4ErtWPqrdfWw&s);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
